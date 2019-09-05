@@ -1,0 +1,12 @@
+<main>
+  <div style="text-align:center">
+    <h1 id="timer">
+      {{ getTimerHours() }} : {{ getTimerMinutes() }} : {{ getTimerSeconds() }}
+    </h1>
+  </div>
+  <div class="timer-setting">
+    <button id="start" (click)='startTimer()' >start</button>
+    <button id="stop" > stop</button>
+    <button id="wait"> wait</button>
+    <button id="reset">reset</button>
+  </div>
